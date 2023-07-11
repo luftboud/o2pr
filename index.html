@@ -3,14 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&family=Overpass:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
     <title>o2pr</title>
   </head>
   <body>
     <header>
-      <div class="container">
-        <img src="" alt="logo" />
+      <div class="container header">
+        <img src="./images/logo.jpeg" alt="logo" class="logo" />
         <!--  menu -->
-        <ul>
+        <ul class="header-menu">
           <li><a href="#">How we do</a></li>
           <li><a href="#">Our services</a></li>
           <li><a href="#">Our work</a></li>
@@ -20,31 +27,42 @@
       </div>
     </header>
     <main>
-      <section>
-        <div class="container">
+      <section class="intro-section">
+        <div class="container intro-section-container">
           <div>
-            <h2>
+            <h2 class="intro-title">
               We’re making communications meaningful, turning values into
               action-oriented campaigns, shaping reputation and perception,
               maximizing results, reach & impact
             </h2>
-            <button type="button">explore our work</button>
+            <button type="button" class="explore-button">
+              explore our work
+            </button>
           </div>
-          <button type="button"><span>\/</span></button>
+          <button type="button" class="intro-arrow-button">
+            <svg width="20" height="20">
+              <use href="./images/icons.svg#arrow-down"></use>
+            </svg>
+          </button>
         </div>
       </section>
-      <section>
-        <div class="container">
-          <span>how we do that</span>
-          <div>
+      <section class="how-we-do-section">
+        <div class="container how-we-do-section-container">
+          <p class="bg-text how-we-do-bg-text">how we do that</p>
+          <div class="title-field">
             <!-- ::before -->
-            <h3>how we do that</h3>
+            <h3 class="section-title">how we do that</h3>
           </div>
           <div>
-            <ul>
+            <ul class="how-we-do-section-list">
               <li>
-                <span></span>
-                <h4>Making communications meaningful</h4>
+                <div class="item-title">
+                  <svg width="20" height="20" class="">
+                    <use href="./images/icons.svg#messages"></use>
+                  </svg>
+                  <h4>Making communications meaningful</h4>
+                </div>
+
                 <p>
                   We bring values and ideas into action-oriented communication
                   strategies that build and support  meaningful long-term
@@ -52,24 +70,39 @@
                 </p>
               </li>
               <li>
-                <span></span>
-                <h4>Smoothing sharp edges</h4>
+                <div class="item-title">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#shapes"></use>
+                  </svg>
+                  <h4>Smoothing sharp edges</h4>
+                </div>
+
                 <p>
                   We prevent crises and provide professional support to ensure a
                   proper response  in difficult situations
                 </p>
               </li>
               <li>
-                <span></span>
-                <h4>Activating social capital</h4>
+                <div class="item-title">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#people"></use>
+                  </svg>
+                  <h4>Activating social capital</h4>
+                </div>
+
                 <p>
                   We activate our network ​of partners to scale up ideas and
                   actions, while finding common interests and purposes
                 </p>
               </li>
               <li>
-                <span></span>
-                <h4>Pursuing social impact</h4>
+                <div class="item-title">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#user-add"></use>
+                  </svg>
+                  <h4>Pursuing social impact</h4>
+                </div>
+
                 <p>
                   We implement purpose driven leadership thinking in the DNA of
                   a company so that, achieving its business goals, it also
@@ -77,8 +110,13 @@
                 </p>
               </li>
               <li>
-                <span></span>
-                <h4>Hitting bull’s eye</h4>
+                <div class="item-title">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#mouse-circle"></use>
+                  </svg>
+                  <h4>Hitting bull’s eye</h4>
+                </div>
+
                 <p>
                   We create communication solutions that deliver measurable
                   results and are essential for the business’ growth and
@@ -86,30 +124,42 @@
                 </p>
               </li>
               <li>
-                <span></span>
-                <h4>Going extra mile</h4>
+                <div class="item-title">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#routing"></use>
+                  </svg>
+                  <h4>Going extra mile</h4>
+                </div>
+
                 <p>
                   We always find the strength to do more than everyone expects,
                   and in the best possible way
                 </p>
               </li>
             </ul>
-            <button type="button">explore our work</button>
+            <button type="button" class="explore-button">
+              explore our work
+            </button>
           </div>
         </div>
       </section>
-      <section>
-        <div class="container">
-          <span>our services</span>
-          <div>
+      <section class="our-services-section">
+        <div class="container our-services-section-container">
+          <p class="bg-text our-services-bg-text">our services</p>
+          <div class="title-field">
             <!-- ::before -->
-            <h3>our services</h3>
+            <h3 class="section-title">our services</h3>
           </div>
           <div>
-            <ul>
+            <ul class="our-services-section-list">
               <li>
-                <span></span>
-                <h4>Strategy and analytics</h4>
+                <div class="item-title">
+                  <svg width="20" height="20" class="">
+                    <use href="./images/icons.svg#search-normal"></use>
+                  </svg>
+                  <h4>Strategy and analytics</h4>
+                </div>
+
                 <p>
                   We deep dive into the business and the challenges faced by
                   each client using the best-in-class research and analytics
@@ -119,8 +169,13 @@
                 </p>
               </li>
               <li>
-                <span></span>
-                <h4>Reputation and Leadership</h4>
+                <div class="item-title">
+                  <svg width="20" height="20" class="">
+                    <use href="./images/icons.svg#diagram"></use>
+                  </svg>
+                  <h4>Reputation and Leadership</h4>
+                </div>
+
                 <p>
                   We understand the power that comes from the executive
                   leadership, correct executive positioning and brand equity. We
@@ -129,8 +184,13 @@
                 </p>
               </li>
               <li>
-                <span></span>
-                <h4>Content development</h4>
+                <div class="item-title">
+                  <svg width="20" height="20" class="">
+                    <use href="./images/icons.svg#document"></use>
+                  </svg>
+                  <h4>Content development</h4>
+                </div>
+
                 <p>
                   We deliver highly customized ideas in the unique and creative
                   execution that reach and captivate the right audiences across
@@ -139,8 +199,13 @@
                 </p>
               </li>
               <li>
-                <span></span>
-                <h4>Public Relations</h4>
+                <div class="item-title">
+                  <svg width="20" height="20" class="">
+                    <use href="./images/icons.svg#like"></use>
+                  </svg>
+                  <h4>Public Relations</h4>
+                </div>
+
                 <p>
                   We employ our extensive network of partners, media, and
                   opinion leaders to effectively communicate key messages and
@@ -148,17 +213,19 @@
                 </p>
               </li>
             </ul>
-            <button type="button">explore our work</button>
+            <button type="button" class="explore-button">
+              explore our work
+            </button>
           </div>
         </div>
       </section>
-      <section>
+      <section class="our-work-section">
         <div class="container">
           <span>our work</span>
           <div>
             <div>
               <!-- ::before -->
-              <h3>our work</h3>
+              <h3 class="section-title">our work</h3>
             </div>
             <div>
               <span>View all</span>
@@ -206,7 +273,7 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="contact-section">
         <div class="container">
           <div>
             <h3>Ready to make your  communications meaningful? </h3>
@@ -215,177 +282,193 @@
               proper response  in difficult situations
             </p>
           </div>
-          <button type="button">contact us <span>-></span></button>
+          <button type="button" class="contact-button">
+            contact us
+            <svg width="14" height="14">
+              <use href="./images/icons.svg#arrow-down"></use>
+            </svg>
+          </button>
         </div>
       </section>
-      <section>
+      <section class="our-clients-section">
         <div class="container">
-          <ul>
-            <li>
-              <svg>
-                <use href=""></use>
-              </svg>
+          <ul class="our-clients-section-list">
+            <li class="mobile-visible">
+              <div class="client-icon">
+                <img src="./images/IF_logo.jpeg" alt="client icon" />
+              </div>
+            </li>
+            <li class="mobile-visible">
+              <div class="client-icon">
+                <img src="./images/IRC_Logo.jpeg" alt="client icon" />
+              </div>
+            </li>
+            <li class="mobile-visible">
+              <div class="client-icon">
+                <img src="./images/un-logo.jpeg" alt="client icon" />
+              </div>
+            </li>
+            <li class="mobile-visible">
+              <div class="client-icon">
+                <img src="./images/KI_forum_icon.jpeg" alt="client icon" />
+              </div>
+            </li>
+            <li class="mobile-visible">
+              <div class="client-icon">
+                <img src="./images/UfU_logo.jpg" alt="client icon" />
+              </div>
+            </li>
+            <li class="mobile-visible">
+              <div class="client-icon">
+                <img src="./images/DLF_icon.jpeg" alt="client icon" />
+              </div>
+            </li>
+            <li class="mobile-visible">
+              <div class="client-icon">
+                <img src="./images/gusp_logo.jpeg" alt="client icon" />
+              </div>
+            </li>
+            <li class="mobile-visible">
+              <div class="client-icon">
+                <img src="./images/slow-food-logo.jpeg" alt="client icon" />
+              </div>
+            </li>
+            <li class="mobile-visible">
+              <div class="client-icon">
+                <img src="./images/hd-logo.jpeg" alt="client icon" />
+              </div>
+            </li>
+            <li class="mobile-visible">
+              <div class="client-icon">
+                <img src="./images/AESU_logo.jpeg" alt="client icon" />
+              </div>
+            </li>
+            <li class="mobile-visible">
+              <div class="client-icon">
+                <img src="./images/Cisco_logo.jpeg" alt="client icon" />
+              </div>
+            </li>
+            <li class="mobile-visible">
+              <div class="client-icon">
+                <img src="./images/ATW_logo.jpeg" alt="client icon" />
+              </div>
+            </li>
+            <li class="mobile-visible">
+              <div class="client-icon">
+                <img src="./images/unit-city_logo.jpeg" alt="client icon" />
+              </div>
+            </li>
+            <li class="mobile-visible">
+              <div class="client-icon">
+                <img src="./images/lifecell_logo.jpeg" alt="client icon" />
+              </div>
             </li>
             <li>
-              <svg>
-                <use href=""></use>
-              </svg>
+              <div class="client-icon">
+                <img src="" alt="client icon" />
+              </div>
             </li>
             <li>
-              <svg>
-                <use href=""></use>
-              </svg>
+              <div class="client-icon">
+                <img src="" alt="client icon" />
+              </div>
             </li>
             <li>
-              <svg>
-                <use href=""></use>
-              </svg>
+              <div class="client-icon">
+                <img src="" alt="client icon" />
+              </div>
             </li>
             <li>
-              <svg>
-                <use href=""></use>
-              </svg>
+              <div class="client-icon">
+                <img src="" alt="client icon" />
+              </div>
             </li>
             <li>
-              <svg>
-                <use href=""></use>
-              </svg>
+              <div class="client-icon">
+                <img src="" alt="client icon" />
+              </div>
             </li>
             <li>
-              <svg>
-                <use href=""></use>
-              </svg>
+              <div class="client-icon">
+                <img src="" alt="client icon" />
+              </div>
             </li>
             <li>
-              <svg>
-                <use href=""></use>
-              </svg>
+              <div class="client-icon">
+                <img src="" alt="client icon" />
+              </div>
             </li>
             <li>
-              <svg>
-                <use href=""></use>
-              </svg>
+              <div class="client-icon">
+                <img src="" alt="client icon" />
+              </div>
             </li>
             <li>
-              <svg>
-                <use href=""></use>
-              </svg>
+              <div class="client-icon">
+                <img src="" alt="client icon" />
+              </div>
             </li>
             <li>
-              <svg>
-                <use href=""></use>
-              </svg>
+              <div class="client-icon">
+                <img src="" alt="client icon" />
+              </div>
             </li>
             <li>
-              <svg>
-                <use href=""></use>
-              </svg>
-            </li>
-            <li>
-              <svg>
-                <use href=""></use>
-              </svg>
-            </li>
-            <li>
-              <svg>
-                <use href=""></use>
-              </svg>
-            </li>
-            <li>
-              <svg>
-                <use href=""></use>
-              </svg>
-            </li>
-            <li>
-              <svg>
-                <use href=""></use>
-              </svg>
-            </li>
-            <li>
-              <svg>
-                <use href=""></use>
-              </svg>
-            </li>
-            <li>
-              <svg>
-                <use href=""></use>
-              </svg>
-            </li>
-            <li>
-              <svg>
-                <use href=""></use>
-              </svg>
-            </li>
-            <li>
-              <svg>
-                <use href=""></use>
-              </svg>
-            </li>
-            <li>
-              <svg>
-                <use href=""></use>
-              </svg>
-            </li>
-            <li>
-              <svg>
-                <use href=""></use>
-              </svg>
-            </li>
-            <li>
-              <svg>
-                <use href=""></use>
-              </svg>
-            </li>
-            <li>
-              <svg>
-                <use href=""></use>
-              </svg>
-            </li>
-            <li>
-              <svg>
-                <use href=""></use>
-              </svg>
+              <div class="client-icon">
+                <img src="" alt="client icon" />
+              </div>
             </li>
           </ul>
+          <div class="view-more mobile-visible">
+            <p>View more</p>
+            <svg width="18" height="18" class="">
+              <use href="./images/icons.svg#half-arrow-down"></use>
+            </svg>
+          </div>
         </div>
       </section>
     </main>
     <footer>
-        <div class="container">
-            <div>
-                <img src="" alt="">
-                <div>
-                    <p>Company</p>
-                    <!-- ::after -->
-                    <ul>
-                        <li>
-                            <p>How we do</p>
-                        </li>
-                        <li>
-                            <p>Our services</p>
-                        </li>
-                        <li>
-                            <p>Our work</p>
-                        </li>
-                        <li>
-                            <p>Contact</p>
-                        </li>
-                        <li>
-                            <p>Our parthners</p>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <p>Contact us</p>
-                    <!-- ::after -->
-                    <button>Contact us <span>-></span></button>
-                </div>
-            </div>
-            <div>
-                <a href="">© 2023 Handshake All rights reserved</a>
-                <a href="">Privacy Policy</a>
-            </div>
+      <div class="container footer">
+        <div>
+          <img src="./images/logo.jpeg" alt="logo" class="logo" />
+          <div class="footer-company-info">
+            <p class="title">Company</p>
+            <!-- ::after -->
+            <ul class="footer-list">
+              <div class="left-list-column">
+                <li>
+                  <p class="footer-item">How we do</p>
+                </li>
+                <li>
+                  <p class="footer-item">Our services</p>
+                </li>
+                <li>
+                  <p class="footer-item">Our work</p>
+                </li>
+              </div>
+              <div class="right-list-column">
+                <li>
+                  <p class="footer-item">Contact</p>
+                </li>
+                <li>
+                  <p class="footer-item">Our parthners</p>
+                </li>
+              </div>
+            </ul>
+          </div>
+          <div>
+            <p class="mobile-unvisible title">Contact us</p>
+            <p class="mobile-visible title">Sign up for our newsletter</p>
+            <!-- ::after -->
+            <button class="contact-button">Contact us <span>-></span></button>
+          </div>
         </div>
+        <div class="policy-field">
+          <a href="">© 2023 Handshake All rights reserved</a>
+          <a href="">Privacy Policy</a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

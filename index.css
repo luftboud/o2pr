@@ -161,6 +161,9 @@ p {
   transform: rotate(-90deg);
 }
 /* 6th section */
+.our-clients-section {
+  background-color: #fbfbfb;
+}
 .our-clients-section-list {
   display: flex;
   flex-wrap: wrap;
@@ -177,6 +180,9 @@ p {
 }
 /*  */
 /* footer */
+footer {
+  background-color: #fbfbfb;
+}
 .footer .mobile-visible {
   display: none;
 }
@@ -622,8 +628,206 @@ p {
   .container {
     width: 1600px;
   }
+  .bg-text {
+    font-size: 128px;
+  }
+  .explore-button {
+    font-size: 18px;
+  }
+  /* header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 21px;
+    margin-bottom: 21px;
+  }
+  .header .logo {
+    width: 368px;
+  }
+  .header-menu {
+    display: flex;
+    gap: 58px;
+  }
+  .header-menu a {
+    text-decoration: none;
+    color: #364860;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  /* 1st section */
+  .intro-section-container {
+    padding-top: 158px;
+    padding-bottom: 379px;
+  }
+  .intro-section-container div {
+    padding-left: 135px;
+  }
+  .intro-title {
+    width: 1055px;
+    font-size: 48px;
+    margin: 0 0 42px;
+  }
+  .intro-arrow-button {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    top: 235px;
+    left: 778px;
+  }
+  .intro-arrow-button svg {
+    width: 24px;
+    height: 24px;
+  }
+  /* 2nd section */
+  .how-we-do-bg-text {
+    top: 28px;
+    left: 567px;
+  }
+  .how-we-do-section {
+    padding-bottom: 173px;
+  }
+  .title-field {
+    top: 3px;
+  }
+  .how-we-do-section .section-title {
+    margin-left: 135px;
+  }
+  .section-title {
+    font-size: 24px;
+  }
+  .section-title::before {
+    top: 15px;
+    left: -135px;
+    width: 115px;
+    height: 2px;
+  }
+  .how-we-do-section-list {
+    margin-top: 63px;
+    justify-content: space-between;
+    row-gap: 80px;
+    margin-bottom: 60px;
+  }
+  .how-we-do-section-list li {
+    width: 436px;
+    padding-right: 84px;
+  }
+  .how-we-do-section-list svg {
+    width: 30px;
+    height: 30px;
+  }
+  .how-we-do-section-list h4 {
+    font-size: 22px;
+  }
+  /* 3rd section */
+  .our-services-section {
+    margin-top: 100px;
+  }
+  .our-services-bg-text {
+    top: 28px;
+    left: -131px;
+    line-height: normal;
+    opacity: 0.03999999910593033;
+  }
+  .our-services-section .section-title {
+    margin-left: 135px;
+  }
+  .our-services-section .title-field {
+    top: -89px;
+  }
+  .our-services-section-list {
+    margin-top: -20px;
+    margin-bottom: 60px;
+    row-gap: 80px;
+  }
+  .our-services-section-list li {
+    width: 655px;
+  }
+  .our-services-section-list h4 {
+    font-size: 22px;
+  }
+  .our-services-section-list svg {
+    width: 30px;
+    height: 30px;
+  }
+  .our-services-section {
+    padding-bottom: 85px;
+  }
+  /* 5th section */
+  .contact-section {
+    padding: 74px 0 75px;
+  }
+  .contact-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 135px;
+  }
+  .text-field {
+    width: 926px;
+  }
+  .contact-section h3 {
+    font-size: 64px;
+  }
+  .contact-section p {
+    margin: 14px 0 0;
+  }
+  .contact-button {
+    width: 196px;
+    height: 75px;
+    padding: 24px 30px;
+    font-size: 18px;
+  }
+  .contact-button svg {
+    width: 16.4px;
+    height: 16.4px;
+  }
+  /* 6th section */
+  .our-clients-section {
+    margin: 100px 0;
+    padding: 123px 0;
+  }
+  .our-clients-section-list {
+    gap: 80px;
+    row-gap: 101px;
+  }
+  .our-clients-section-list .client-icon {
+    width: 226px;
+    height: 72px;
+  }
+  .our-clients-section-list .client-icon img{
+    height: 100%;
+  }
+  /* footer */
+  .footer {
+    padding: 42px 0 23px;
+  }
+  .footer-info-container {
+    display: flex;
+    gap: 162px;
+    padding: 0 270px;
+    margin-bottom: 127px;
+  }
+  .footer-info {
+    gap: 168px;
+    margin: 0;
+  }
+  .footer .contact-button {
+    font-size: 16px;
+    width: 181px;
+    height: 44px;
+  }
+  .footer .contact-button svg {
+    width: 14px;
+    height: 14px;
+  }
+  .policy-field {
+    padding: 0 270px;
+  }
 }
-
+/* clients logo remake + burger */
 /* no 4th section */
 .our-work-section {
   display: none;

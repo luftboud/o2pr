@@ -214,6 +214,25 @@ footer {
   font-weight: 400;
   line-height: normal;
 }
+/* modal */
+.modal-menu {
+  display: none;
+  position: absolute;
+  background-color: #fbfbfb;
+  width: 100%;
+  height: 100%;
+}
+.modal-menu ul {
+  display: flex;
+  flex-direction: column;
+}
+.modal-menu a {
+  text-decoration: none;
+  color: #364860;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 /* mobile */
 @media (max-width: 753px) {
   .container {
@@ -434,6 +453,17 @@ footer {
   .mobile-unvisible {
     display: none;
   }
+  /* modal */
+  .modal-menu {
+    top: 69px;
+  }
+  .modal-menu ul {
+    margin: 36px 24px;
+    row-gap: 30px;
+  }
+  .modal-menu a {
+    font-size: 16px;
+  }
 }
 /* tablet */
 @media (min-width: 754px) {
@@ -643,6 +673,17 @@ footer {
   .policy-field a {
     font-size: 13px;
   }
+  /* modal */
+  .modal-menu {
+    top: 93px;
+  }
+  .modal-menu ul {
+    margin: 107px 40px;
+    row-gap: 58px;
+  }
+  .modal-menu a {
+    font-size: 30px;
+  }
 }
 /* desktop */
 @media (min-width: 1600px) {
@@ -814,7 +855,7 @@ footer {
     gap: 80px;
     row-gap: 101px;
   }
-  .our-clients-section-list .client-icon img{
+  .our-clients-section-list .client-icon img {
     width: 226px;
     height: 72px;
   }

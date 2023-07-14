@@ -57,4 +57,9 @@
     <symbol id="half-arrow-down" width="19" height="18" viewBox="0 0 19 18" fill="none">
         <path d="M15.4401 6.71289L10.5501 11.6029C9.97256 12.1804 9.02756 12.1804 8.45006 11.6029L3.56006 6.71289" stroke="#364860" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
     </symbol>
+    <symbol id="burger" viewBox="0 0 36 23" fill="none" >
+        <rect width="36" height="5" rx="2" fill="#364860"/>
+        <rect y="9" width="36" height="5" rx="2" fill="#364860"/>
+        <rect y="18" width="36" height="5" rx="2" fill="#364860"/>
+    </symbol>
 </svg>

@@ -254,6 +254,10 @@ footer {
     top: 109px;
     left: 123px;
   }
+  .intro-arrow-button svg {
+    width: 14.18px;
+    height: 14.18px;
+  }
   /* 2nd section */
   .how-we-do-bg-text {
     top: 14px;
@@ -463,6 +467,10 @@ footer {
     border-radius: 5.909px;
     top: 223px;
     left: 364px;
+  }
+  .intro-arrow-button svg {
+    width: 14.18px;
+    height: 14.18px;
   }
   /* 2nd section */
   .how-we-do-bg-text {

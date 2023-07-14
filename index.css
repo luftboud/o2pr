@@ -364,7 +364,7 @@ footer {
   .our-clients-section-list li {
     display: none;
   }
-  .our-clients-section-list .client-icon {
+  .our-clients-section-list .client-icon img {
     width: 120px;
     height: 39px;
   }
@@ -591,7 +591,7 @@ footer {
     gap: 52px;
     row-gap: 66px;
   }
-  .our-clients-section-list .client-icon {
+  .our-clients-section-list .client-icon img {
     width: 149px;
     height: 47px;
   }
@@ -814,12 +814,9 @@ footer {
     gap: 80px;
     row-gap: 101px;
   }
-  .our-clients-section-list .client-icon {
+  .our-clients-section-list .client-icon img{
     width: 226px;
     height: 72px;
-  }
-  .our-clients-section-list .client-icon img {
-    height: 100%;
   }
   /* footer */
   .footer {

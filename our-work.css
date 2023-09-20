@@ -68,6 +68,7 @@
     margin-top: 30px;
   }
 }
+/* ! tablet */
 @media (min-width: 754px) {
   .back-btn svg {
     height: 30px;
@@ -127,6 +128,7 @@
     /* justify-content: center; */
   }
 }
+/* !desktop */
 @media (min-width: 1600px) {
   .back-btn {
     display: none;

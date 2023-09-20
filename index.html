@@ -15,7 +15,7 @@
   <body>
     <header>
       <div class="container header">
-        <img src="./images/logo.jpeg" alt="logo" class="logo" />
+        <img src="./images/site-logo.png" alt="logo" class="logo" />
         <!--  menu -->
         <svg class="burger">
           <use href="./images/icons.svg#burger"></use>
@@ -23,7 +23,7 @@
         <ul class="header-menu">
           <li><a href="#">How we do</a></li>
           <li><a href="#">Our services</a></li>
-          <li><a href="#">Our work</a></li>
+          <li><a href="./our-work.html">Our work</a></li>
           <li><a href="#">Contact</a></li>
           <li><a href="#">Our parthners</a></li>
         </ul>
@@ -224,55 +224,93 @@
       </section>
       <section class="our-work-section">
         <div class="container">
-          <span>our work</span>
-          <div>
-            <div>
-              <!-- ::before -->
-              <h3 class="section-title">our work</h3>
-            </div>
-            <div>
+          <p class="bg-text our-work-bg-text">our work</p>
+          <div class="our-work-field">
+            <h3 class="section-title">our work</h3>
+            <div class="our-work-more">
               <span>View all</span>
-              <span>></span>
+              <svg>
+                <use href="./images/icons.svg#arrow-right"></use>
+              </svg>
             </div>
           </div>
-          <div>
-            <button>L</button>
-            <ul>
-              <li>
-                <img src="" alt="pic" />
-                <div>
-                  <img src="" alt="logo" />
+          <div class="our-work-slider">
+            <!-- слайдер -->
+            <button class="button-arrow button-arrow-left">
+              <svg>
+                <use href="./images/icons.svg#arrow-down"></use>
+              </svg>
+            </button>
+            <ul class="our-work-card-list">
+              <li class="our-work-item">
+                <img
+                  src="./images/our-work-img1.jpg"
+                  alt="pic"
+                  class="our-work-img"
+                />
+                <div class="our-work-card-info">
+                  <img
+                    src="./images/site-logo.png"
+                    alt="logo"
+                    class="our-work-card-logo"
+                  />
                   <h4>Reputation and Leadership</h4>
-                  <span>
-                    <a href="#">Read more</a>
-                    <span>-></span>
-                  </span>
+                  <a href="#" class="our-work-more-info">
+                    <p>Read more</p>
+                    <svg >
+                      <use href="./images/icons.svg#arrow-right"></use>
+                    </svg>
+                  </a>
                 </div>
               </li>
-              <li>
-                <img src="" alt="pic" />
-                <div>
-                  <img src="" alt="logo" />
+              <li class="our-work-item">
+                <img
+                  src="./images/our-work-img2.jpg"
+                  alt="pic"
+                  class="our-work-img"
+                />
+                <div class="our-work-card-info">
+                  <img
+                    src="./images/site-logo.png"
+                    alt="logo"
+                    class="our-work-card-logo"
+                  />
                   <h4>Reputation and Leadership</h4>
-                  <span>
-                    <a href="#">Read more</a>
-                    <span>-></span>
-                  </span>
+                  <a href="#" class="our-work-more-info">
+                    <p>Read more</p>
+                    <svg width="14.18" height="14.18">
+                      <use href="./images/icons.svg#arrow-right"></use>
+                    </svg>
+                  </a>
                 </div>
               </li>
-              <li>
-                <img src="" alt="pic" />
-                <div>
-                  <img src="" alt="logo" />
+              <li class="our-work-item">
+                <img
+                  src="./images/our-work-img3.jpg"
+                  alt="pic"
+                  class="our-work-img"
+                />
+                <div class="our-work-card-info">
+                  <img
+                    src="./images/site-logo.png"
+                    alt="logo"
+                    class="our-work-card-logo"
+                  />
                   <h4>Reputation and Leadership</h4>
-                  <span>
-                    <a href="#">Read more</a>
-                    <span>-></span>
-                  </span>
+                  <a href="#" class="our-work-more-info">
+                    <p>Read more</p>
+                    <svg width="14.18" height="14.18">
+                      <use href="./images/icons.svg#arrow-right"></use>
+                    </svg>
+                  </a>
                 </div>
               </li>
             </ul>
-            <button>></button>
+            <button class="button-arrow button-arrow-right">
+              <svg >
+                <use href="./images/icons.svg#arrow-down"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </section>
